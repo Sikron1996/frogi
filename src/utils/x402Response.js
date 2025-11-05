@@ -1,6 +1,6 @@
 
 export function buildDiscovery() {
-  const base = process.env.PUBLIC_BASE_URL || 'https://x402frog8s-one.vercel.app';
+  const base = process.env.PUBLIC_BASE_URL || 'https://frogi-azure.vercel.app';
   const receiver = process.env.B402_RECEIVER || '0x0000000000000000000000000000000000000000';
 
   return {
